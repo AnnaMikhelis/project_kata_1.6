@@ -1464,7 +1464,7 @@ h1 {
   position: absolute;
   top: 24px;
   left: 16px;
-  background: url(/src/img/header-mobile-menu/burger.svg);
+  background: url(./static/burger.svg);
   cursor: pointer;
   transition: transform 0.3s; }
 
