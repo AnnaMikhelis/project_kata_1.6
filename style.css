@@ -1131,7 +1131,7 @@ h1 {
   letter-spacing: -0.20000000298023224px; }
 
 .techs-list__tech::after {
-  content: url(/src/img/brands-list/arrow.svg);
+  content: url(./static/arrow.svg);
   position: absolute;
   bottom: 16px;
   right: 16px; }
@@ -1190,7 +1190,7 @@ h1 {
     transform: rotate(180deg);
     transition: 0.3s; }
   .show-arrow-tech {
-    background-image: url("/src/img/brands-list/expand.svg");
+    background-image: url("/src/img/rands-list/expand.svg");
     width: 24px;
     height: 24px;
     align-self: center;
