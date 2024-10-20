@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 88px;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: $white;
+  width: auto;
+}
+
+.header__icon--768 {
+  display: none;
+}
+
+.header__icon {
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.header__icon:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header__icon--768 {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1119px) {
+  .header {
+    display: none;
+  }
+}

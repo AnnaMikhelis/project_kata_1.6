@@ -1,0 +1,31 @@
+.header-mobile {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: $white;
+}
+
+.header-mobile__icon {
+  padding: 0;
+  vertical-align: middle;
+  background-color: $white;
+  border: none;
+}
+
+.header-mobile__icon:not(.logo):hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.header-mobile__icon--first {
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 1366px) {
+  .header-mobile__icon--first {
+    display: none;
+  }
+}

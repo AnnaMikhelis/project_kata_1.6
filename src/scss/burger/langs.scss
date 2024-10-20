@@ -1,0 +1,25 @@
+.langs {
+  display: flex;
+  margin-top: 8px;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+
+.langs__lang {
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #1b1c21;
+  background-color: $white;
+  border: none;
+  padding: 0;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 450px) {
+  .langs {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,46 @@
+.btn-more {
+  visibility: hidden;
+}
+
+.show-all {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .button-show {
+    align-items: center;
+    background-color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+  }
+  .show-all {
+    display: flex;
+    padding: 0;
+    margin-top: 8px;
+    margin-left: 32px;
+    cursor: pointer;
+  }
+
+  .show-all--rotate {
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+
+  .show-arrow {
+    background-image: url('/src/img/brands-list/expand.svg');
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    margin-right: 8px;
+  }
+
+  .show-all {
+    display: flex;
+  }
+}

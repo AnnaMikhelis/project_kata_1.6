@@ -1,0 +1,65 @@
+.tech {
+  margin-bottom: 50px;
+}
+
+.techs-list__tech {
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  width: 240px;
+  height: 160px;
+  padding: 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  background-color: $white;
+}
+
+.techs-list__tech button {
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.20000000298023224px;
+}
+
+.techs-list__tech::after {
+  content: url(/src/img/brands-list/arrow.svg);
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.techs-list__tech:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+@media (min-width: 768px) {
+  .techs-list {
+    box-sizing: border-box;
+    padding: 24px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px 24px;
+    grid-auto-flow: dense;
+  }
+
+  .techs-list__tech {
+    max-width: 224px;
+  }
+
+  .techs-list__tech--hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1120px) {
+  .techs-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .techs-list__tech {
+    max-width: 240px;
+  }
+}

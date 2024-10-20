@@ -1,0 +1,34 @@
+.footer-burger-icons {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.footer-burger-icons__icon {
+  margin-right: 16px;
+  padding: 0;
+  background-color: $white;
+  border: none;
+}
+
+.footer-burger-icons__icon:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.footer-burger-contacts-links {
+  margin: 0 24px;
+}
+.footer-burger-contacts-links__link {
+  padding: 0;
+  margin-bottom: 12px;
+  display: block;
+  color: black;
+}
+
+.footer-burger-contacts-links__link:last-child {
+  margin-bottom: 0px;
+}
+
+.footer-burger-contacts-links__link:hover {
+  color: #7e7e82;
+}

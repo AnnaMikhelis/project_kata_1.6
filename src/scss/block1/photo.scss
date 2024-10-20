@@ -1,0 +1,18 @@
+.photo {
+  border-radius: 0px;
+  margin-left: 0px;
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+}
+
+@media screen and (min-width: 768px) {
+  .photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 48px;
+    left: auto;
+  }
+}

@@ -1,0 +1,42 @@
+.mini-titles {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mini-titles {
+    box-sizing: border-box;
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    padding: 32px 24px 24px 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .mini-titles::after {
+    content: '';
+    position: relative;
+    right: 0;
+    width: 104px;
+  }
+
+  .mini-titles__title {
+    color: #7e7e82;
+    line-height: 16px;
+    margin-right: 24px;
+  }
+
+  .mini-titles__title--repair {
+    width: 45%;
+  }
+
+  .mini-titles__title--price {
+    width: 20%;
+  }
+
+  .mini-titles__title--time {
+    width: 20%;
+  }
+}

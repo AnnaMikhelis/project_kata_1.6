@@ -1,0 +1,70 @@
+.burger-menu {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow: scroll;
+  font-family: 'TT Lakes';
+  box-shadow: 16px 0px 52px 0px #0e185033;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: $white;
+  z-index: 10;
+}
+
+@media screen and (min-width: 450px) {
+  .burger-menu {
+    max-width: 320px;
+    box-shadow: 16px 0 52px 0 #0e185033;
+    position: fixed;
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .burger-menu {
+    display: flex;
+    min-width: 246px;
+    height: auto;
+    position: static;
+    box-shadow: none;
+    overflow: hidden;
+  }
+}
+
+.burger-menu__block {
+  height: 100%;
+}
+
+.burger__block:last-child {
+  margin-bottom: 32px;
+  margin-top: auto;
+}
+
+.burger-text-16-reg {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  font-weight: 500;
+  text-decoration: none;
+  color: #1b1c21;
+}
+
+.burger-text-24-bold {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6000000238418579px;
+  text-align: left;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1b1c21;
+}
+
+.burger-hidden {
+  display: none;
+}

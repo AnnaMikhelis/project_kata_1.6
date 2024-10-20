@@ -1,0 +1,33 @@
+.services-list__service--button-order {
+  background-color: #ff3e79;
+  color: $white;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 16px;
+  margin-right: 0;
+
+  img {
+    margin-left: 8px;
+  }
+}
+
+.services-list__service--button-order:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+@media screen and (min-width: 768px) {
+  .services-list__service--button-order {
+    position: relative;
+    right: 0;
+    bottom: auto;
+  }
+}

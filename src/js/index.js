@@ -1,3 +1,10 @@
 import '../scss/style.scss'
-
-console.log('Works!')
+import './burger'
+import './block1__read-more'
+import './buttonShowAll'
+import './brands-swiper'
+import './swiper-tech'
+import './buttonShowAllTech'
+import './swiper-price'
+import './popup-phone'
+import './popup-chat'

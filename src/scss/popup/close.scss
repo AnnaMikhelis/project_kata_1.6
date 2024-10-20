@@ -1,0 +1,24 @@
+.popup__close {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: $white;
+  padding: 0;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  background: url(/src/img/header-mobile-menu/burger.svg);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.popup__close:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 768px) {
+  .popup__close {
+    top: 32px;
+    left: -72px;
+  }
+}

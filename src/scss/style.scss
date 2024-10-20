@@ -1,17 +1,49 @@
-$bgColor: #24292e;
-$text: #fff;
+@import '../scss/all/normalize.scss';
+@import './all/page.scss';
+@import './all/variables.scss';
+@import './burger/burger.scss';
+@import './burger/footer.scss';
+@import './burger/header.scss';
+@import './burger/langs.scss';
+@import './burger/list.scss';
+@import '../fonts/stylesheet-fonts.css';
 
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
+@import './block1/about.scss';
+@import './block1/button.scss';
+@import './block1/container.scss';
+@import './block1/header.scss';
+@import './block1/menu.scss';
+@import './block1/photo.scss';
+@import './block1/title.scss';
 
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
-}
+@import './brands/brandsList.scss';
+@import './brands/container.scss';
+@import './brands/showAll.scss';
+@import './brands/swiper.scss';
+
+@import './tech/tech-list.scss';
+@import './tech/showAllTech.scss';
+
+@import './price/price-link.scss';
+@import './price/price-mini-title.scss';
+@import './price/price-mini-titles-mob.scss';
+@import './price/price-text.scss';
+@import './price/price-title.scss';
+@import './price/service-list-button.scss';
+@import './price/service-list-spans.scss';
+@import './price/services-list.scss';
+@import './price/swiper.scss';
+
+@import './footer/footer.scss';
+@import './footer/footer-text.scss';
+
+@import './popup/close.scss';
+@import './popup/container.scss';
+@import './popup/form.scss';
+@import './popup/input.scss';
+@import './popup/message.scss';
+@import './popup/popup.scss';
+@import './popup/span.scss';
+@import './popup/submit.scss';
+@import './popup/textarea.scss';
+@import './popup/title.scss';

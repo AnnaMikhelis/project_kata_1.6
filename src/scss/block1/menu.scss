@@ -1,0 +1,40 @@
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  overflow: scroll;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-left: 16px;
+}
+
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.menu__link {
+  font-family: TT Lakes;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  padding: 8px 22px;
+  vertical-align: middle;
+  border: none;
+  background-color: #f8f8f8;
+  color: #7e7e82;
+}
+
+.menu__link:hover {
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  background-color: $white;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1119px) {
+  .menu {
+    flex-wrap: wrap;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}

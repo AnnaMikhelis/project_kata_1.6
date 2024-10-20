@@ -1,0 +1,26 @@
+.swiper-wrapper {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.swiper-pagination {
+  position: relative;
+  padding-top: 24px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  margin-right: 12px;
+  background-color: #dddddd;
+}
+
+.swiper-pagination-bullet-active {
+  --swiper-theme-color: #b5b6bc;
+}
+
+@media (min-width: 768px) {
+  .swiper-pagination {
+    display: none;
+  }
+}

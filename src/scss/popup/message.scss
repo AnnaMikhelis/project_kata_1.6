@@ -1,0 +1,12 @@
+.popup__message {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (min-width: 768px) {
+  .popup__message {
+    letter-spacing: 0.15px;
+  }
+}

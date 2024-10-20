@@ -1,0 +1,41 @@
+.services-list__service--repair {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.services-list__service--price {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.services-list__service--time {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .services-list__service span {
+    margin-bottom: 0;
+  }
+
+  .services-list__service--repair {
+    width: 45%;
+    padding-right: 24px;
+    align-self: center;
+  }
+
+  .services-list__service--price {
+    width: 20%;
+    padding-right: 24px;
+    align-self: center;
+  }
+
+  .services-list__service--time {
+    width: 20%;
+    padding-right: 24px;
+    align-self: center;
+  }
+}

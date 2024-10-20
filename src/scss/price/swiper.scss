@@ -1,0 +1,23 @@
+.swiper-pagination-price {
+  position: relative;
+  padding-top: 0px;
+  margin-bottom: 16px;
+}
+
+.swiper-slide--castom {
+  width: 260px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-slide--castom {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+    height: auto;
+  }
+  .swiper-wrapper {
+    width: auto;
+    margin-top: 0;
+  }
+}

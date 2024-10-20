@@ -1,0 +1,23 @@
+.price__link-more {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-right: 16px;
+
+  img {
+    position: relative;
+    top: 8px;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .price__link-more {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}

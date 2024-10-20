@@ -1,0 +1,23 @@
+.services-list__service--repair::before {
+  content: 'Ремонтные услуги';
+  color: #7e7e82;
+  margin-bottom: 4px;
+}
+
+.services-list__service--price::before {
+  content: 'Цена';
+  color: #7e7e82;
+  margin-bottom: 4px;
+}
+
+.services-list__service--time::before {
+  content: 'Срок';
+  color: #7e7e82;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .services-list__service span::before {
+    display: none;
+  }
+}
