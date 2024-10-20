@@ -1015,7 +1015,7 @@ h1 {
   background-color: #ffffff; }
 
 .brands-list__brand::after {
-  content: url(/src/img/brands-list/arrow.svg); }
+  content: url(/img\brands-list\arrow.svg); }
 
 .brands-list__brand:hover {
   transform: scale(1.1);
