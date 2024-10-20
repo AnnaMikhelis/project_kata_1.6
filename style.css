@@ -1080,7 +1080,7 @@ h1 {
     transform: rotate(180deg);
     transition: 0.3s; }
   .show-arrow {
-    background-image: url("/img/brands-list/expand.svg");
+    background-image: url(./static/expand.svg);
     width: 24px;
     height: 24px;
     align-self: center;
